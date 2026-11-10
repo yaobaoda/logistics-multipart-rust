@@ -1,0 +1,13 @@
+[package]
+name = "logistics-multipart-rust"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+
+[[bin]]
+name = "shipment-upload"
+path = "src/main.rs"
+
+[lib]
+name = "shipment_upload"
+path = "src/lib.rs"
